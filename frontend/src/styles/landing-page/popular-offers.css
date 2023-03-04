@@ -1,0 +1,51 @@
+.popular-offers{
+    width: 85%;
+    position: relative;
+    left: 7%;
+    margin-top: 4vw;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.title2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.right-button{
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: white;
+    transition: .4s;
+}
+
+.right-button:hover{
+    cursor: pointer;
+    transform: scale(1.13);
+}
+
+.left-button{
+    position: absolute;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: white;
+    transition: .4s;
+}
+
+.left-button:hover{
+    cursor: pointer;
+    transform: scale(1.13);
+}
+.offers-container{
+    display: flex;
+    justify-content: space-between;
+}

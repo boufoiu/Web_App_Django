@@ -1,0 +1,42 @@
+
+.offers-visualizer-ctn-home{
+    margin-left: 300px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.offers-visualizer-ctn-favorites{
+    margin-left: 300px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.offers-visualizer-ctn-profile{
+    position: relative;
+    margin-top: 50px;
+}
+
+
+.offers-visualizer{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80%;
+    margin-top: 30px;
+    justify-content: space-around;
+    row-gap: 30px;
+}
+
+.offers-visualizer-title{
+    font-size: 25px;
+    font-weight:900;
+    margin-left: 10%;
+}
+
+@media (max-width: 1600px){
+    .offers-visualizer-ctn-home{
+        margin-left: 0;
+    }  
+}

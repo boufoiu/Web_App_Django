@@ -1,0 +1,14 @@
+.profile-icon{
+    position: absolute;
+    right: 3%;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    top: 20px;
+}
+
+.profile-icon img{
+    width: 50px;
+    border-radius: 50px;
+}

@@ -1,0 +1,72 @@
+.contact{
+    margin-top: 5vw;
+    left: 10%;
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-title1{
+    font-weight: 700;
+    font-size: 30px;
+}
+.contact-title2{
+    font-weight: 800;
+    font-size: 3vw;
+}
+.contact-desc{
+margin-top: 20px;
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.contact-logo{
+    width: 350px;
+    height: 350px;
+    margin-right: 20%;
+    margin-left: 30%;
+    margin-top: 35px;
+}
+
+.contact-btn-container{
+    display: flex;
+}
+
+.tlphn-btn{
+    border: none;
+    background-color: #1F637E;
+    padding: 15px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .4s;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 200px;
+
+}
+
+.tlphn-btn:hover{
+    transform: scale(1.13);
+}
+
+.email-btn{
+    border: none;
+    background-color: #FF8140;
+    padding: 15px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .4s;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 200px;
+
+}
+
+.email-btn:hover{
+    transform: scale(1.13);
+}

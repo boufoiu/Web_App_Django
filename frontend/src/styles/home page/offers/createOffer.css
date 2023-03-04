@@ -1,0 +1,68 @@
+.create-offer-form {
+  margin-left: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+  height: 70vh;
+}
+
+.create-offer-form .title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.create-offer-form select {
+  width: 200px;
+  border-radius: 0px;
+  padding-left: 20px;
+  height: 600px;
+  margin-left: 60px;
+  margin-top: 70px;
+
+}
+
+.create-offer-form .input-ctn {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin: 30px;
+  padding-left: 0px;
+  border-radius: 50px;
+}
+
+.create-offer-form .input-half {
+  width: 140px;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 0px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.input-full {
+  width: 100%;
+  height: 50px;
+  margin: 30px;
+  padding-left: 20px;
+  border-radius: 0px;
+  margin-bottom: 60px;
+  font-size: 20px;
+}
+
+.create-offer-form .half-ctn {
+  width: 40%;
+}
+
+.input-full-2 {
+  width: 970px;
+  height: 900px;
+  margin: 30px;
+  padding-left: 30px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  margin-left: 60px;
+  font-size: 20px;
+}

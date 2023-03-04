@@ -1,0 +1,65 @@
+.full-nav{
+    /* background-color: #040F17; */
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30vw;
+    width: 40vw;
+}
+
+.nav-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 3.3vw;
+    padding-bottom: 3vw;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: #4DFFEA;
+    transition: .3s;
+}
+
+
+
+.connect-button{
+    border: none;
+    background-color: #1F637E;
+    padding: 12px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .4s;
+    margin-left: 20px;
+}
+
+.connect-button:hover{
+    transform: scale(1.13);
+    cursor: pointer;
+}
+
+.sign-up{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.sign-up:hover{
+    color: #4DFFEA;
+    transition: .3s;
+}
+
+.log-in{
+    position: absolute;
+    right: 2vw;
+    top: 2.5vw;
+}

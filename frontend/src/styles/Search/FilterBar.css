@@ -1,0 +1,94 @@
+.filter-bar-landing {
+  display: none;
+}
+
+.filter-bar-home {
+  display: none;
+}
+
+.filter-bar-home select {
+  color: white;
+  background-color: rgba(256, 256, 256, 0.2);
+  border-color: white;
+  border-radius: 12px;
+  font-size: 1.2vw;
+  padding: 4px 7px;
+  position: relative;
+  height: 3vw;
+}
+
+.filter-bar-landing select {
+  color: white;
+  background-color: rgba(256, 256, 256, 0.2);
+  border-color: white;
+  border-radius: 12px;
+  font-size: 1.2vw;
+  padding: 4px 7px;
+  position: relative;
+  height: 3vw;
+}
+
+.filter-option {
+  background-color: #040f17;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.filter-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  margin: 20px;
+  padding: 30px;
+  color: white;
+  font-size: large;
+}
+
+.search-button {
+  position: relative;
+  right: 2%;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: #ff8140;
+  padding: 4px 8px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1vw;
+  text-align: center;
+  font-size: 0.9vw;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  border: solid 2px white;
+}
+
+#filter-check {
+  display: none;
+}
+
+#filter-check:checked ~ .filter-bar-home {
+  margin-top: 1vw;
+  position: relative;
+  width: 75vw;
+  height: 80px;
+  background-color: #040f17;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 12px;
+}
+#filter-check:checked ~ .filter-bar-landing {
+  margin-top: 2vw;
+  position: relative;
+  width: 80vw;
+  height: 100px;
+  background-color: #040f17;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

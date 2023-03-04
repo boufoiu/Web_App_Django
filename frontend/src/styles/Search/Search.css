@@ -1,0 +1,20 @@
+.search-ctn-landing{
+    margin-top: 5vw;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.search-ctn-home{
+    margin-top: 1vw;
+    margin-left:20vw ;
+    margin-right: 5vw;
+    width: fit-content;
+}
+
+@media (max-width:1600px){
+    .search-ctn-home{
+        margin-left: 3vw;
+    }
+}

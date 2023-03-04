@@ -1,0 +1,102 @@
+.offer-details-ctn {
+  margin-left: 300px;
+  padding-left: 5%;
+  padding-top: 20px;
+}
+.offer-details-image {
+  width: 50%;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.offer-images-ctn {
+  margin-top: 30px;
+}
+.offer-time {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+
+.seller-contact {
+  background-color: #219090;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.seller-contact img {
+  width: 25px;
+  border-radius: 20px;
+}
+
+.seller-contact i {
+  position: relative;
+  top: 15%;
+}
+
+.offer-details-btns {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 40px;
+}
+
+.offer-details-btns div {
+  padding: 7px 10px;
+  background: #f48501;
+  border-radius: 10px;
+  color: white;
+}
+.offer-description {
+  font-size: medium;
+  margin: 20px;
+  font-weight: 400;
+}
+
+.offer-details-ctn .title {
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.offer-details-ctn .title-ctn {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.offer-details-ctn .price {
+  font-size: 1.7vw;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.offer-details-ctn .price span {
+  color: #f48501;
+}
+
+.offer-details-ctn p {
+  font-weight: 700;
+  font-size: 0.8vw;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+  margin: 50px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
