@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="full-nav">
-      <img src={logo} className="logo-img"></img>
+      <a href="/">
+        <img src={logo} className="logo-img"></img>
+      </a>
       <div className="nav" id="navv">
         <ul className="nav-list">
           <li>

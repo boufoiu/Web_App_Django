@@ -130,7 +130,6 @@ def google_authenticate(request):
         #print('utilisateur existant')
         
     except User.DoesNotExist:
-        print(l)
         user = User(FirstName = l['family_name'],LastName=l['given_name'],PfP=l['picture'],Email=l['email'])
         user.save()
     
@@ -138,7 +137,6 @@ def google_authenticate(request):
         request.session.flush()
         
     request.session['email'] =l['email']
-    print('logged in')
 
     return HttpResponseRedirect('http://127.0.0.1:3000/home/profile')
 

@@ -17,6 +17,7 @@ export default function Connect() {
     try {
       const res = await axios.get("/login/", { withCredentials: true });
       window.location.href = res.data;
+      console.log(res)
     } catch (err) {
       console.log(err);
     }
